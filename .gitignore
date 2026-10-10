@@ -1,0 +1,8 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+!camera_perception_pkg/camera_perception_pkg/lib/camera_perception_func_lib.cpython-310.pyc
+!lidar_perception_pkg/lidar_perception_pkg/lib/lidar_perception_func_lib.cpython-310.pyc
+*.pt

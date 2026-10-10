@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>fusion_pkg</name>
+  <version>0.0.0</version>
+  <description>Camera–LiDAR fusion for the assistive walker: announces a detected object when the LiDAR confirms an obstacle ahead</description>
+  <maintainer email="jeongbin0208@g.skku.edu">Jingbin JIN</maintainer>
+  <author>Capstone Design team, SungKyunKwan University (2025)</author>
+  <license>GPL-3</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>interfaces_pkg</exec_depend>
+
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
